@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+body{
+background : linear-gradient(35deg,#00c6ff 60%,#0072ff 55%);
+}
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  #foot
+  {
+      background: black;
+  }
+  .namespan1
+  {
+      background: white;
+  }
+
+.cursor-pointer{
+    cursor: pointer;
+  }
+#buttontopright
+{
+    border-radius: 100px;
+}
+#buttonmiddle
+{
+    border: 100px;
+}
+
+#cloud {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 300px;
+  content: '';
+  opacity: 5;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: #eee;
+  animation: float 2.5s infinite ease-in-out;
+}
+#logoimage
+{
+    height: 40px;
+    width: 40px;
+}
+
+
+@keyframes float {
+    50% {
+        top: 60px;
+    }    
+   
+}
